@@ -8,7 +8,7 @@
 * [Project Status](#project-status)
 
 ## General Info
-This project is a simple analysis of human resources data to assess why the best and most experienced employees are leaving prematurely. 
+This project is a simple analysis of human resources data to assess why the best and most experienced employees are leaving prematurely. This analysis focuses primarily on attrition and the monthly income of salespeople. 
 
 The Human Resource Analysis data can be accessed from the Kaggle website at: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset.
 
