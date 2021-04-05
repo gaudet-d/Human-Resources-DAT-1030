@@ -13,7 +13,7 @@ This project is a simple analysis of human resources data to assess why the best
 The Human Resource Analysis data can be accessed from the Kaggle website at: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset.
 
 ## Results
-The results of this analysis indicate that the majority of the salespeople do not have attrition. Further, the result indicate that the monthly income of employees with attrition against those without seems very similar, however, the monthly income of salespeople with attrition does seem to have some rightward skew. This may indicate that those with attrition may have lower monthly incomes.
+The results of this analysis indicate that the majority of the salespeople do not have attrition. Further, the results indicate that the monthly income of employees with attrition against those without seems very similar, however, the monthly income of salespeople with attrition does seem to have some heavier right skew. This may indicate that those with attrition may have lower monthly incomes.
 
 ## Directory Structure
 The structure of the project is as follows: 
