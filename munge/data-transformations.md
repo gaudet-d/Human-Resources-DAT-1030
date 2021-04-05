@@ -1,4 +1,8 @@
-# Creating the initial table.
+## Data Transformations for Analysis
+The following data transformations were used to allow for the desired data analysis. Following each transformation of the data, the command `SELECT * FROM employee_sales LIMIT 10;` was used to verify changes.
+
+### Creating the data subset.
+```
 CREATE TABLE employee_sales
 (
 Attrition string, 
@@ -6,39 +10,40 @@ Department string,
 JobSatisfaction int,
 MonthlyIncome int
 );
-SELECT * FROM employee_sales LIMIT 10;
+```
 
 
-# Adding the desired columns from HR employees to smaller table.
+### Choosing desired variables
+```
 INSERT OVERWRITE TABLE employee_sales
 
 SELECT Attrition, Department, JobSatisfaction, MonthlyIncome
 FROM hremployees;
-SELECT * FROM employee_sales LIMIT 10;
+```
 
-
-
-# Rounding Monthly Income to the nearest 1000. 
+### Rounding Monthly Income to the nearest 1000. 
+```
 INSERT OVERWRITE TABLE employee_sales
 
 SELECT Attrition, Department, JobSatisfaction, ROUND(MonthlyIncome, -3) AS MonthlyIncome
 FROM employee_sales;
-SELECT * FROM employee_sales LIMIT 10;
+```
 
-
-# Filtering for only items in the Sales Department
+### Filtering for only employees in the Sales Department
+```
 INSERT OVERWRITE TABLE employee_sales
 
 SELECT *
 FROM employee_sales
 WHERE Department LIKE "%Sales%";
-SELECT * FROM employee_sales LIMIT 10;
+```
 
-# Sorting by job satisfaction from highest to lowest. 
+### Sorting by job satisfaction from highest to lowest. 
+```
 INSERT OVERWRITE TABLE employee_sales
 
 SELECT *
 FROM employee_sales
 ORDER BY JobSatisfaction DESC;
-SELECT * FROM employee_sales LIMIT 10;
+```
 
