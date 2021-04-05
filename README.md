@@ -1,10 +1,10 @@
 # Human Resources Analysis - DAT 1030
 
 ## Table of Contents
-* [General Info] (#general-info)
-* [Accessing the Data) (#accessing-the-data)
-* [Technologies] (#technologies)
-* [Project Status] (#project-status)
+* [General Info](#general-info)
+* [Accessing the Data](#accessing-the-data)
+* [Technologies](#technologies)
+* [Project Status](#project-status)
 
 ## General Info
 This project is a simple analysis of human resources data to assess why the best and most experienced employees are leaving prematurely. 
