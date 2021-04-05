@@ -1,4 +1,4 @@
-## Data Transformations for Analysis
+## Pre-processing Data Transformations 
 The following data transformations were used to allow for the desired data analysis. Following each transformation of the data, the command `SELECT * FROM employee_sales LIMIT 10;` was used to verify changes.
 
 ### Creating the data subset.
