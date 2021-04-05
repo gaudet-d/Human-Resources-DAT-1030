@@ -10,7 +10,7 @@
 This project is a simple analysis of human resources data to assess why the best and most experienced employees are leaving prematurely. 
 
 ## Accessing the Data
-The Human Resource Analysis data can be accessed from the Kaggle website at: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset"
+The Human Resource Analysis data can be accessed from the Kaggle website at: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
 ## Technologies
 Project is created with:
